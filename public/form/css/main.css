@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'comic sans MS';
+}
+
+#wrapper{
+    width: 27%;
+    background-color: #dfe6e9;
+    display: flex;
+    position: fixed;
+    margin:0px 0 0 820px ;
+}
+
+#mainAreaForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    height:630px;
+    background-color: #ecf0f1;
+    
+}
+
+#mainAreaForm > form > p{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+#mainAreaForm > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 240px;
+    
+}
+
+#mainAreaForm > form > input{
+    width: 100%;
+    height: 30px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#mainAreaForm > form > textarea {
+    resize: none;
+    width: 100%;
+    height: 60px;
+    border: 2px solid;
+}
+
+#mainAreaForm > form > select{
+    width: 100%;
+}
+#mainAreaForm > form > a {
+    background-color: #3bf;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    height: 40px;
+    border-radius: 2px;
+    
+}
+
+#sideBar{
+    width:50px;
+    height:630px;
+    background-color: #000;
+    display: flex;
+}
+
+#sideBar > a{
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+    height: 23px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
